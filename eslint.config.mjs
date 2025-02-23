@@ -11,9 +11,26 @@ export default [
     ignores: ['**/node_modules/**', 'coverage/**', 'dist/**']
   },
   { files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'] },
+
+  {
+    languageOptions: {
+      parserOptions: {
+        projectService: './tsconfig.json',
+        allowAutomaticSingleRunInference: true,
+        ecmaFeatures: {
+          jsx: true
+        }
+      },
+      globals: { ...globals.browser, ...globals.node }
+    },
+    settings: {
+      react: {
+        version: 'detect'
+      }
+    }
+  },
   love,
   eslintConfigPrettier,
-  { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended
