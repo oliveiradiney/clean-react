@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES2024",
+    "target": "ES6",
     "lib": [
       "DOM",
       "DOM.Iterable",
       "ESNext"
     ],
+    "strictNullChecks": true,
     "esModuleInterop": true,
     "module": "ESNext",
     "moduleResolution": "node",
@@ -18,8 +19,5 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true
-  },
-  "include": [
-    "src"
-  ]
+  }
 }
