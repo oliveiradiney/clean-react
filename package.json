@@ -21,6 +21,7 @@
     "eslint": "^9.21.0",
     "eslint-config-love": "^118.0.0",
     "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.2",
     "eslint-plugin-react": "^7.37.4",
     "git-commit-msg-linter": "^5.0.8",
     "globals": "^16.0.0",
