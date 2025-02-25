@@ -1,8 +1,4 @@
 {
-  "*.ts?(x)": [
-    "eslint --fix"
-  ],
-  "*.{js,ts,tsx,json,css,scss,md}": [
-    "prettier --write"
-  ]
+  "*.ts?(x)": ["eslint --fix", "npm run test:staged"],
+  "*.{js,ts,tsx,json,css,scss,md}": ["prettier --write"]
 }
