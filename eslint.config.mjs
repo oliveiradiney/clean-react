@@ -39,15 +39,16 @@ export default [
       }
     },
     rules: {
+      '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'off',
       '@typescript-eslint/consistent-type-definitions': 'off',
       '@typescript-eslint/return-await': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/class-methods-use-this': 'off',
       '@typescript-eslint/unbound-method': 'off',
+      '@typescript-eslint/method-signature-style': 'off',
+      'react/prop-types': 'off',
       '@typescript-eslint/no-unsafe-member-access': 'off',
       '@typescript-eslint/prefer-destructuring': 'off',
-      'react/prop-types': 'off',
-
       '@typescript-eslint/no-unsafe-type-assertion': 'off',
       '@typescript-eslint/strict-boolean-expressions': 'off',
       '@typescript-eslint/prefer-nullish-coalescing': 'off',
