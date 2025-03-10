@@ -53,6 +53,7 @@ export default [
       '@typescript-eslint/strict-boolean-expressions': 'off',
       '@typescript-eslint/prefer-nullish-coalescing': 'off',
       '@typescript-eslint/no-unsafe-assignment': 'off',
+      '@typescript-eslint/switch-exhaustiveness-check': 'off',
       '@typescript-eslint/no-magic-numbers': 'off',
       '@typescript-eslint/no-unnecessary-condition': 'off',
       'react/jsx-uses-react': 'error',
