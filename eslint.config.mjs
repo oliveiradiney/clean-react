@@ -41,6 +41,7 @@ export default [
     rules: {
       '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'off',
       '@typescript-eslint/consistent-type-definitions': 'off',
+      '@typescript-eslint/no-confusing-void-expression': 'off',
       '@typescript-eslint/return-await': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/class-methods-use-this': 'off',
