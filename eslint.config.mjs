@@ -48,6 +48,7 @@ export default [
       '@typescript-eslint/no-unnecessary-type-assertion': 'off',
       '@typescript-eslint/consistent-type-definitions': 'off',
       '@typescript-eslint/switch-exhaustiveness-check': 'off',
+      '@typescript-eslint/prefer-destructuring': 'off',
       '@typescript-eslint/strict-boolean-expressions': 'off',
       '@typescript-eslint/prefer-nullish-coalescing': 'off',
       '@typescript-eslint/no-unsafe-type-assertion': 'off',
@@ -68,6 +69,7 @@ export default [
       '@typescript-eslint/require-await': 'off',
       '@typescript-eslint/return-await': 'off',
       'no-console': 'off',
+      'react/prop-types': 'off',
       'react/jsx-uses-react': 'error',
       'react/jsx-uses-vars': 'error'
     }
