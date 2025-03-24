@@ -7,9 +7,13 @@ type Props = React.DetailedHTMLProps<
 > & {}
 
 const Input: React.FC<Props> = (props: Props) => {
+  const enableInput = (event: React.FocusEvent<HTMLInputElement>): void => {
+    event.target.readOnly = false
+  }
+
   return (
     <div className='inputWrap'>
-      <input type='email' name='email' placeholder='Digite seu e-mail' />
+      <input {...props} readOnly onFocus={enableInput} />
       <span className='status'>🔴</span>
     </div>
   )
